@@ -70,3 +70,6 @@ When ALL are met, output `<promise>COMPLETE</promise>`:
 4. `bun run build` produces working binary
 5. GitHub Actions workflows exist
 6. install.sh works
+7. create a test-prompt.md file and run ralph with it. the prompt should instruct ralph to create or update state.txt qith a number starting and increment it by exactly 1. when the number is 5 the task is complete
+8. each message from ralph appears on a new line in the console output, that means there are newlines characters between messages within the same ralph iteration. USE THE OUTPUT TO VERIFY THIS, DO NOT FUCK THIS UP. YOU HAVECLAIMED MANY TIMES THAT THIS WORKS BUT IT ABSOLUTELY DOES NOT
+9. ralph outputs the claude code stdout to the console including tool calls, it MUST show file reads edits etc instdout (not the content but edit(file)

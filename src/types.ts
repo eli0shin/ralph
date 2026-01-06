@@ -4,6 +4,7 @@ export type RalphConfig = {
   maxIterations: number;
   model?: string;
   cwd: string;
+  claudePath: string;
 };
 
 export type IterationResult = {
