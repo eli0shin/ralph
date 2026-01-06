@@ -45,6 +45,7 @@ Options:
 ### Build & Release
 
 Mirror the setup from `../repos/`:
+
 - Bun compile to standalone binaries
 - GitHub Actions with changesets for versioning
 - Cross-platform builds (linux-x64, linux-arm64, darwin-x64, darwin-arm64)
@@ -64,7 +65,8 @@ Mirror the setup from `../repos/`:
 When ALL are met, output `<promise>COMPLETE</promise>`:
 
 1. `bun run typecheck` passes
-2. `bun run test` passes
-3. `bun run build` produces working binary
-4. GitHub Actions workflows exist
-5. install.sh works
+2. `bun run lint` passes
+3. `bun run test` passes
+4. `bun run build` produces working binary
+5. GitHub Actions workflows exist
+6. install.sh works
