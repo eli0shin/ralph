@@ -24,19 +24,19 @@ ralph [prompt-file] [options]
 
 ### Arguments
 
-| Argument | Description | Default |
-|----------|-------------|---------|
+| Argument      | Description             | Default     |
+| ------------- | ----------------------- | ----------- |
 | `prompt-file` | Path to the prompt file | `PROMPT.md` |
 
 ### Options
 
-| Option | Description | Default |
-|--------|-------------|---------|
+| Option                            | Description                  | Default                       |
+| --------------------------------- | ---------------------------- | ----------------------------- |
 | `-c, --completion-promise <text>` | Text that signals completion | `<promise>COMPLETE</promise>` |
-| `-n, --max-iterations <number>` | Safety limit for iterations | `10` |
-| `-m, --model <model>` | Claude model to use | (default model) |
-| `--cwd <directory>` | Working directory | current directory |
-| `--claude-path <path>` | Path to claude executable | auto-detected |
+| `-n, --max-iterations <number>`   | Safety limit for iterations  | `10`                          |
+| `-m, --model <model>`             | Claude model to use          | (default model)               |
+| `--cwd <directory>`               | Working directory            | current directory             |
+| `--claude-path <path>`            | Path to claude executable    | auto-detected                 |
 
 ### Example
 
