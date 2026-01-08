@@ -1,6 +1,6 @@
 {
   "name": "ralph",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI tool that runs Claude Agent SDK in a loop until completion",
   "type": "module",
   "private": true,
